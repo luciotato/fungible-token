@@ -27,7 +27,8 @@ Below we provide only the highlights. Follow the links for detailed description.
 
 ## Core Fungible Token
 
-The design [discussion](https://github.com/near/NEPs/issues/141).
++ The design [discussion](https://github.com/near/NEPs/issues/141).
++ [Details](./core_fungible_token.md)
 
 The Core Fungible Token abstracts the account and meta-information management and focuses on
 
@@ -86,7 +87,9 @@ pub trait FungibleTokenReceiver {
 
 ## FT Metadata
 
-The design [discussion](https://github.com/near/NEPs/discussions/148).
++ The design [discussion](https://github.com/near/NEPs/discussions/148).
++ [Details](./ft_metadata.md)
+
 
 Many smart-contracts need to carry extra information data. Notably, token smart contract should provide minimum information to a user about it's usage. Fungible Token Metadata is a set of minimum attributes a Fungible Token has to provide to assure correct operations.
 
@@ -121,7 +124,9 @@ struct Metadata {
 
 ## Contract Storage
 
-The design [discussion](https://github.com/near/NEPs/discussions/145).
++ The design [discussion](https://github.com/near/NEPs/discussions/145).
++ [Details](./contract_storage.md)
+
 
 Many smart contract will store new data for every user. Fungible Tokens will need to store balance information per user. Hence we need a way to manage a storage costs per user.
 
